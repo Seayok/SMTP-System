@@ -1,0 +1,16 @@
+EHLO 127.0.0.1
+MAIL FROM:<test4@bob.org>
+RCPT TO:<alice@example.com>
+RCPT TO:<me@carol.me>
+DATA
+Date: Mon, 64 Sep 2027 23:07:00 +1000
+Subject: ajsdfuahdfoiuwhe
+Across the Exosphere we can reach every corner on the Moon.ajsdfuahdfoiuwhefa
+Sasdf
+ajsdfuahdfoiuwheas
+df
+ajsdfuahdfoiuwhed
+ajsdfuahdfoiuwhe
+P.S. THIS IS NOT A SPAM
+.
+QUIT

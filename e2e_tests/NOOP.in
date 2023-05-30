@@ -1,0 +1,12 @@
+NOOP
+EHLO 127.0.0.1
+NOOP
+NOOP
+MAIL FROM:<test@example.com>
+NOOPNOOP
+RCPT TO:<test@example.new.com>
+NOOP NOOP
+NOOP no
+noop
+noop 
+QUIT

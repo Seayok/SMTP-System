@@ -1,0 +1,26 @@
+S: 220 Service ready
+C: NOOP
+S: 250 Requested mail action okay completed
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: NOOP
+S: 250 Requested mail action okay completed
+C: NOOP
+S: 250 Requested mail action okay completed
+C: MAIL FROM:<test@example.com>
+S: 250 Requested mail action okay completed
+C: NOOPNOOP
+S: 501 Syntax error in parameters or arguments
+C: RCPT TO:<test@example.new.com>
+S: 250 Requested mail action okay completed
+C: NOOP NOOP
+S: 501 Syntax error in parameters or arguments
+C: NOOP no
+S: 501 Syntax error in parameters or arguments
+C: noop
+S: 500 Syntax error, command unrecognized
+C: noop 
+S: 500 Syntax error, command unrecognized
+C: QUIT
+S: 221 Service closing transmission channel

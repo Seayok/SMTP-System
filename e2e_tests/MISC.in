@@ -1,0 +1,25 @@
+EHLO 127.0.0.1
+MAIL FROM:<bob@bob.org>
+RCPT TO:<alice@example.com>
+invalid command
+RCPT TO:<me@carol.me>
+RSET
+EHLO 127.0.0.1
+notvalid
+MAIL FROM:<bob@bob.org>
+RCPT TO:<alice@example.com>
+NOOP
+NOOP
+DATA
+.
+MAIL FROM:<bob@bob.org>
+RCPT TO:<alice@example.com>
+DATA
+Date: Mon, 14 Sep 1987 23:07:00 +1000 
+Date: Mon, 14 Sep 1987 23:07:00 +1000
+Subject: Frist Electronic Mail from Bob to Alice and Carol
+Across the Exosphere we can reach every corner on the Moon.
+P.S. THIS IS NOT A SPAM
+.
+QUIT QUIT QUIT
+QUIT

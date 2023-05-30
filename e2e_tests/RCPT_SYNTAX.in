@@ -1,0 +1,10 @@
+EHLO 123.123.123.123
+MAIL FROM:<test@example.com>
+RCPT TO:<Norm-al-mixASD@example.com>
+RCPT TO:<123@g.com>
+RCPT TO:<invalidsubdomain@#.com>
+RCPT TO:<--invalid--@example.com>
+RCPT
+RCPT NOTTO:<mail@mail.com>
+RCPT TO:<notvalid@mail.com
+QUIT

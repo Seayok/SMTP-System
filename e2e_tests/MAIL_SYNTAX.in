@@ -1,0 +1,33 @@
+EHLO 127.0.0.1
+MAIL FROM:<@yahoo.com>
+EHLO 127.0.0.1
+MAIL FROM:<---@yahoo.com>
+EHLO 127.0.0.1
+MAIL FROM:<TEsT@yahoo>
+EHLO 127.0.0.1
+MAIL FROM:<TE1.3s.T@yahoo.o.o.com>
+EHLO 127.0.0.1
+MAIL FROM:<TEs123T@yahoo>
+EHLO 127.0.0.1
+MAIL FROM:<test@yah@oo.com>
+EHLO 127.0.0.1
+MAIL FROM:<---test---@GMs.com>
+EHLO 127.0.0.1
+MAIL FROM:<test@yahoo..com>
+EHLO 127.0.0.1
+MAIL FROM:<test@.com>
+EHLO 127.0.0.1
+MAIL FROM:<te#t@yasdf.asdf.as.dfa.ds.com>
+EHLO 127.0.0.1
+MAIL FROM:<test@[123.12.12.1]>
+EHLO 127.0.0.1
+MAIL FROM:<t!21joa!asdasst@.com>
+EHLO 127.0.0.1
+MAIL FROM:<TE13sT@yahoo.o.o.com
+EHLO 127.0.0.1
+MAIL FROM:TE13sT@yahoo.o.o.com>
+EHLO 127.0.0.1
+MAIL FROM:<TE13sTyahoo.o.o.com>
+MAIL NO
+MAIL MORE ARGUMENTS
+QUIT

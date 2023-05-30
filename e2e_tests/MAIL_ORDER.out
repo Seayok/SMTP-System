@@ -1,0 +1,34 @@
+S: 220 Service ready
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:<test@yahoo.com>
+S: 250 Requested mail action okay completed
+C: MAIL FROM:<sad@gmail.com>
+S: 503 Bad sequence of commands
+C: RCPT TO:<dat@gas.com>
+S: 250 Requested mail action okay completed
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:<test@yahoo.com>
+S: 250 Requested mail action okay completed
+C: RCPT TO:<test1@qwery.com>
+S: 250 Requested mail action okay completed
+C: MAIL FROM:<test@gmail.com>
+S: 503 Bad sequence of commands
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:<test@yahoo.com>
+S: 250 Requested mail action okay completed
+C: RCPT TO:<test2@test.com.vn>
+S: 250 Requested mail action okay completed
+C: DATA
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: .
+S: 250 Requested mail action okay completed
+C: MAIL FROM:<test3@test4.com>
+S: 250 Requested mail action okay completed
+C: QUIT
+S: 221 Service closing transmission channel

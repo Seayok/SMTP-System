@@ -1,0 +1,6 @@
+S: 220 Service ready
+S: 500 Syntax error, command unrecognized
+C: Hbgy7o7lt5GnoESFR
+S: 500 Syntax error, command unrecognized
+C: QUIT
+S: 221 Service closing transmission channel

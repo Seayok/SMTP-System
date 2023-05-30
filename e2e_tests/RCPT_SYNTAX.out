@@ -1,0 +1,22 @@
+S: 220 Service ready
+C: EHLO 123.123.123.123
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:<test@example.com>
+S: 250 Requested mail action okay completed
+C: RCPT TO:<Norm-al-mixASD@example.com>
+S: 250 Requested mail action okay completed
+C: RCPT TO:<123@g.com>
+S: 250 Requested mail action okay completed
+C: RCPT TO:<invalidsubdomain@#.com>
+S: 501 Syntax error in parameters or arguments
+C: RCPT TO:<--invalid--@example.com>
+S: 501 Syntax error in parameters or arguments
+C: RCPT
+S: 501 Syntax error in parameters or arguments
+C: RCPT NOTTO:<mail@mail.com>
+S: 501 Syntax error in parameters or arguments
+C: RCPT TO:<notvalid@mail.com
+S: 501 Syntax error in parameters or arguments
+C: QUIT
+S: 221 Service closing transmission channel

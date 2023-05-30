@@ -1,0 +1,4 @@
+EHLO 127.0.0.1
+MAIL FROM:<bob@example.org>
+RCPT TO:<alice@example.au.org>
+QUIT

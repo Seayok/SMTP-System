@@ -1,0 +1,28 @@
+S: 220 Service ready
+C: EHLO 1.2.3.4
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: AUTH
+S: 501 Syntax error in parameters or arguments
+C: AUTHNOSPACE
+S: 501 Syntax error in parameters or arguments
+C: AUTH too many arguments
+S: 501 Syntax error in parameters or arguments
+C: AUTH CRAM-MD5555
+S: 504 Unrecognized authentication type
+C: AUTH CRAM-MD5
+S: 334 OTNhZGZkMzA0OWE0MGEzNWUzZWRkZTRmZWFiZDgzMDk1NGZmOGM2YjY1ZmFkZDgzNThhNjEyMzU0ZGFlNjE3ZA==
+C: *
+S: 501 Syntax error in parameters or arguments
+C: AUTH CRAM-MD5
+S: 334 OTNhZGZkMzA0OWE0MGEzNWUzZWRkZTRmZWFiZDgzMDk1NGZmOGM2YjY1ZmFkZDgzNThhNjEyMzU0ZGFlNjE3ZA==
+C: Ym9iIGFiY2RlZmdoaWprbG1ub3BxcnN0dXZ3eHl6MTIzNDU3
+S: 535 Authentication credentials invalid
+C: AUTH CRAM-MD5
+S: 334 OTNhZGZkMzA0OWE0MGEzNWUzZWRkZTRmZWFiZDgzMDk1NGZmOGM2YjY1ZmFkZDgzNThhNjEyMzU0ZGFlNjE3ZA==
+C: MjJGMUYxIGE4MTYzYzMwZWU3YzBhNmZkZjI2YjZlNDA0YmJhMzEx
+S: 235 Authentication successful
+C: AUTH CRAM-MD5
+S: 503 Bad sequence of commands
+C: QUIT
+S: 221 Service closing transmission channel

@@ -1,0 +1,19 @@
+S: 220 Service ready
+C: EHLONOSPACE
+S: 501 Syntax error in parameters or arguments
+C: EHLO notmail.com.asdf.asdf
+S: 501 Syntax error in parameters or arguments
+C: EHLO multi arguments
+S: 501 Syntax error in parameters or arguments
+C: EHLO
+S: 501 Syntax error in parameters or arguments
+C: EHLO 275.112.1203.1
+S: 501 Syntax error in parameters or arguments
+C: EHLO 123.123.123
+S: 501 Syntax error in parameters or arguments
+C: EH
+S: 500 Syntax error, command unrecognized
+C: HLO
+S: 500 Syntax error, command unrecognized
+C: QUIT
+S: 221 Service closing transmission channel

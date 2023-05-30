@@ -1,0 +1,54 @@
+S: 220 Service ready
+C: RSET
+S: 250 Requested mail action okay completed
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: RSET
+S: 250 Requested mail action okay completed
+C: MAIL FROM:<test@mail.com>
+S: 250 Requested mail action okay completed
+C: RSET
+S: 250 Requested mail action okay completed
+C: RCPT TO:<TEST@MAIL.COM>
+S: 503 Bad sequence of commands
+C: MAIL FROM:<test@mail.com>
+S: 250 Requested mail action okay completed
+C: RCPT TO:<TEST@MAIL.COM>
+S: 250 Requested mail action okay completed
+C: RSET
+S: 250 Requested mail action okay completed
+C: DATA
+S: 503 Bad sequence of commands
+C: MAIL FROM:<test@mail.com>
+S: 250 Requested mail action okay completed
+C: RCPT TO:<TEST@MAIL.COM>
+S: 250 Requested mail action okay completed
+C: DATA
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: asdfasdfasd
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: fromasd
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: fromasdf
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: RSET
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: 
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: asdfassdf
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: .
+S: 250 Requested mail action okay completed
+C: RSET
+S: 250 Requested mail action okay completed
+C: MAIL FROM:<test@mail.com>
+S: 250 Requested mail action okay completed
+C: RSET INVALID
+S: 501 Syntax error in parameters or arguments
+C: RSET            
+S: 501 Syntax error in parameters or arguments
+C: RSE
+S: 500 Syntax error, command unrecognized
+C: QUIT
+S: 221 Service closing transmission channel

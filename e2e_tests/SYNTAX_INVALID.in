@@ -1,0 +1,38 @@
+invalid command
+
+
+:(
+EHLO 123.1234.12
+EHLO 280.0.0.1
+EHLO asd.qwe.123.wds
+EHLO 127.0.0.1 asdqwe123
+EHLO 127.0.0.1
+thisisawronganswer
+MAIL FROM:<asdfhaw@adsfsd.com
+MAIL FROM:<bob@gmail..com>
+MAIL FROM:<ASDASD>
+MAIL FROM:<test@bob.com>
+MAIL FROM:<---@BOB.com>
+RSET more arg
+RSET
+MAIL:<wrongsyntax@gmail.com>
+MAIL FROM:<wrongm#il@g.com>
+MAIL FROM:<wrongmail@gmail>
+MAIL FROM:<alice@gmail.com>
+RCPT:<wrongsyntax@asdf.com>
+RCPT TO:<wrongmail@asdf>
+RCPT TO:<123@g.com>
+RCPT TO:<invalidsubdomain@#.com>
+NOOP
+NOOP NOOP
+NOOPNOOP NOOP
+DATA invalid
+DATANOSPACE
+DATA
+asdff
+asdfas
+df
+path
+.
+QUIT INVALID
+QUIT

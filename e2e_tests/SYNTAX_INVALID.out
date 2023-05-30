@@ -1,0 +1,78 @@
+S: 220 Service ready
+C: invalid command
+S: 500 Syntax error, command unrecognized
+C: 
+S: 500 Syntax error, command unrecognized
+C: 
+S: 500 Syntax error, command unrecognized
+C: :(
+S: 500 Syntax error, command unrecognized
+C: EHLO 123.1234.12
+S: 501 Syntax error in parameters or arguments
+C: EHLO 280.0.0.1
+S: 501 Syntax error in parameters or arguments
+C: EHLO asd.qwe.123.wds
+S: 501 Syntax error in parameters or arguments
+C: EHLO 127.0.0.1 asdqwe123
+S: 501 Syntax error in parameters or arguments
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: thisisawronganswer
+S: 500 Syntax error, command unrecognized
+C: MAIL FROM:<asdfhaw@adsfsd.com
+S: 501 Syntax error in parameters or arguments
+C: MAIL FROM:<bob@gmail..com>
+S: 501 Syntax error in parameters or arguments
+C: MAIL FROM:<ASDASD>
+S: 501 Syntax error in parameters or arguments
+C: MAIL FROM:<test@bob.com>
+S: 250 Requested mail action okay completed
+C: MAIL FROM:<---@BOB.com>
+S: 503 Bad sequence of commands
+C: RSET more arg
+S: 501 Syntax error in parameters or arguments
+C: RSET
+S: 250 Requested mail action okay completed
+C: MAIL:<wrongsyntax@gmail.com>
+S: 501 Syntax error in parameters or arguments
+C: MAIL FROM:<wrongm#il@g.com>
+S: 501 Syntax error in parameters or arguments
+C: MAIL FROM:<wrongmail@gmail>
+S: 501 Syntax error in parameters or arguments
+C: MAIL FROM:<alice@gmail.com>
+S: 250 Requested mail action okay completed
+C: RCPT:<wrongsyntax@asdf.com>
+S: 501 Syntax error in parameters or arguments
+C: RCPT TO:<wrongmail@asdf>
+S: 501 Syntax error in parameters or arguments
+C: RCPT TO:<123@g.com>
+S: 250 Requested mail action okay completed
+C: RCPT TO:<invalidsubdomain@#.com>
+S: 501 Syntax error in parameters or arguments
+C: NOOP
+S: 250 Requested mail action okay completed
+C: NOOP NOOP
+S: 501 Syntax error in parameters or arguments
+C: NOOPNOOP NOOP
+S: 501 Syntax error in parameters or arguments
+C: DATA invalid
+S: 501 Syntax error in parameters or arguments
+C: DATANOSPACE
+S: 501 Syntax error in parameters or arguments
+C: DATA
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: asdff
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: asdfas
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: df
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: path
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: .
+S: 250 Requested mail action okay completed
+C: QUIT INVALID
+S: 501 Syntax error in parameters or arguments
+C: QUIT
+S: 221 Service closing transmission channel

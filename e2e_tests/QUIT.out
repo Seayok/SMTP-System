@@ -1,0 +1,11 @@
+S: 220 Service ready
+C: QUIT QUIT
+S: 501 Syntax error in parameters or arguments
+C: QUIT too many arguments
+S: 501 Syntax error in parameters or arguments
+C: QUITNOSPACE
+S: 501 Syntax error in parameters or arguments
+C: quit
+S: 500 Syntax error, command unrecognized
+C: QUIT
+S: 221 Service closing transmission channel

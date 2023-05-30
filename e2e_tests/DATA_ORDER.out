@@ -1,0 +1,32 @@
+S: 220 Service ready
+C: EHLO 123.123.123.123
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: DATA
+S: 503 Bad sequence of commands
+C: MAIL FROM:<bob@example.com>
+S: 250 Requested mail action okay completed
+C: DATA
+S: 503 Bad sequence of commands
+C: RCPT TO:<alice@example.com>
+S: 250 Requested mail action okay completed
+C: DATA
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: DATA
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: RCPT TO:<asdfasdf@>
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: this part is all contents
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: RSET
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: NOOP
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: MAIL FROM:
+S: 354 Start mail input end <CRLF>.<CRLF>
+C: .
+S: 250 Requested mail action okay completed
+C: DATA
+S: 503 Bad sequence of commands
+C: QUIT
+S: 221 Service closing transmission channel

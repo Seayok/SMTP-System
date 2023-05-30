@@ -1,0 +1,26 @@
+RSET
+EHLO 127.0.0.1
+RSET
+MAIL FROM:<test@mail.com>
+RSET
+RCPT TO:<TEST@MAIL.COM>
+MAIL FROM:<test@mail.com>
+RCPT TO:<TEST@MAIL.COM>
+RSET
+DATA
+MAIL FROM:<test@mail.com>
+RCPT TO:<TEST@MAIL.COM>
+DATA
+asdfasdfasd
+fromasd
+fromasdf
+RSET
+
+asdfassdf
+.
+RSET
+MAIL FROM:<test@mail.com>
+RSET INVALID
+RSET            
+RSE
+QUIT

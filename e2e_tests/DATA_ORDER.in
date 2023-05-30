@@ -1,0 +1,15 @@
+EHLO 123.123.123.123
+DATA
+MAIL FROM:<bob@example.com>
+DATA
+RCPT TO:<alice@example.com>
+DATA
+DATA
+RCPT TO:<asdfasdf@>
+this part is all contents
+RSET
+NOOP
+MAIL FROM:
+.
+DATA
+QUIT

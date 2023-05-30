@@ -1,0 +1,9 @@
+EHLO 127.0.0.1
+MAIL FROM:<test@example.com>
+RCPT TO:<test@example2.com>
+DATA 123
+DATA 
+DAT
+DATA too many arguments
+DATANOSPACE
+QUIT

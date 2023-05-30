@@ -1,0 +1,15 @@
+EHLO 127.0.0.1
+MAIL FROM:<test@yahoo.com>
+MAIL FROM:<sad@gmail.com>
+RCPT TO:<dat@gas.com>
+EHLO 127.0.0.1
+MAIL FROM:<test@yahoo.com>
+RCPT TO:<test1@qwery.com>
+MAIL FROM:<test@gmail.com>
+EHLO 127.0.0.1
+MAIL FROM:<test@yahoo.com>
+RCPT TO:<test2@test.com.vn>
+DATA
+.
+MAIL FROM:<test3@test4.com>
+QUIT

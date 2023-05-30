@@ -1,0 +1,9 @@
+EHLONOSPACE
+EHLO notmail.com.asdf.asdf
+EHLO multi arguments
+EHLO
+EHLO 275.112.1203.1
+EHLO 123.123.123
+EH
+HLO
+QUIT

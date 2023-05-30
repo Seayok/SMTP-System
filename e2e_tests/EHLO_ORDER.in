@@ -1,0 +1,12 @@
+EHLO 127.0.0.1
+MAIL FROM:<test@gmail.com>
+EHLO 127.0.0.1
+MAIL FROM:<test@gmail.com>
+RCPT TO:<test1@gmail.com>
+EHLO 127.0.0.1
+MAIL FROM:<test@gmail.com>
+RCPT TO:<test1@gmail.com>
+DATA
+.
+EHLO 127.0.0.1
+QUIT

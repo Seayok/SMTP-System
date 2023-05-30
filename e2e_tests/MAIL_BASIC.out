@@ -1,0 +1,8 @@
+S: 220 Service ready
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:<bob@example.org>
+S: 250 Requested mail action okay completed
+C: QUIT
+S: 221 Service closing transmission channel

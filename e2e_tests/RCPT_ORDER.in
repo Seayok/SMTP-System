@@ -1,0 +1,17 @@
+EHLO 127.0.0.1
+MAIL FROM:<bob@example.org>
+RCPT TO:<alice@example.au.org>
+EHLO 127.0.0.1
+RCPT TO:<alice@example.au.org>
+MAIL FROM:<bob@example.org>
+EHLO 127.0.0.1
+MAIL FROM:<bob@example.org>
+RCPT TO:<alice@example.au.org>
+DATA
+asdfasdf
+.
+RCPT TO:<alice@example.au.org>
+EHLO 127.0.0.1
+MAIL FROM:<bob@example.org>
+RCPT TO:<alice@example.au.org>
+QUIT

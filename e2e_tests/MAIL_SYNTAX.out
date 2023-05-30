@@ -1,0 +1,82 @@
+S: 220 Service ready
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:<@yahoo.com>
+S: 501 Syntax error in parameters or arguments
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:<---@yahoo.com>
+S: 501 Syntax error in parameters or arguments
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:<TEsT@yahoo>
+S: 501 Syntax error in parameters or arguments
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:<TE1.3s.T@yahoo.o.o.com>
+S: 250 Requested mail action okay completed
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:<TEs123T@yahoo>
+S: 501 Syntax error in parameters or arguments
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:<test@yah@oo.com>
+S: 501 Syntax error in parameters or arguments
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:<---test---@GMs.com>
+S: 501 Syntax error in parameters or arguments
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:<test@yahoo..com>
+S: 501 Syntax error in parameters or arguments
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:<test@.com>
+S: 501 Syntax error in parameters or arguments
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:<te#t@yasdf.asdf.as.dfa.ds.com>
+S: 501 Syntax error in parameters or arguments
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:<test@[123.12.12.1]>
+S: 250 Requested mail action okay completed
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:<t!21joa!asdasst@.com>
+S: 501 Syntax error in parameters or arguments
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:<TE13sT@yahoo.o.o.com
+S: 501 Syntax error in parameters or arguments
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:TE13sT@yahoo.o.o.com>
+S: 501 Syntax error in parameters or arguments
+C: EHLO 127.0.0.1
+S: 250 127.0.0.1
+S: 250 AUTH CRAM-MD5
+C: MAIL FROM:<TE13sTyahoo.o.o.com>
+S: 501 Syntax error in parameters or arguments
+C: MAIL NO
+S: 501 Syntax error in parameters or arguments
+C: MAIL MORE ARGUMENTS
+S: 501 Syntax error in parameters or arguments
+C: QUIT
+S: 221 Service closing transmission channel

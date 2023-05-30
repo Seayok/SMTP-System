@@ -1,0 +1,10 @@
+EHLO 127.0.0.1
+MAIL FROM:<test6@bob.org>
+RCPT TO:<alice@example.com>
+RCPT TO:<me@carol.me>
+DATA
+Date: Thu, 3 Nov 2022 23:07:00 +1000
+Across the Exosphere we can reach every corner on the Moon.
+P.S. THIS IS NOT A SPAM
+.
+QUIT
